@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Icons {
+  @media (max-width: 450px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.port-1 {
+  @media (max-width: 375px) {
+    left: 125px;
+  }
+}
+
+.port-2 {
+  @media (max-width: 375px) {
+    left: 20px;
+  }
+}
+
+.port-3 {
+  @media (max-width: 375px) {
+    left: 135px;
+  }
+}
+
+.port-4 {
+  @media (max-width: 375px) {
+    left: 10px;
+  }
+}
+
+.icons-gap {
+  @media (max-width: 415px) {
+    gap: 14px;
+  }
+}
+
+/* button hover */
+a {
+  height: 48px;
+  line-height: 48px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: black;
+  border-radius: 2px;
+  transition: 0.3s;
+  border-radius: 30px;
+}
+
+/* BUTTON UP */
+.label-up {
+  display: block;
+  margin: 0px 30px;
+  height: 100%;
+  position: relative;
+  top: 0%;
+  transition: 0.3s;
+}
+.button:hover .label-up {
+  top: -100%;
+}
+
+.label-up1 {
+  display: block;
+  height: 100%;
+  position: relative;
+  top: 0%;
+  transition: 0.3s;
+}
+
+.mywork:hover .label-up1 {
+  top: -100%;
+}
+.mywork {
+  height: 48px;
+  line-height: 48px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: black;
+  border-radius: 2px;
+  transition: 0.3s;
+  border-radius: 30px;
+}
+
+.button2 {
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 2px;
+  transition: 0.3s;
+  border-radius: 30px;
+}
+
+/* BUTTON UP */
+.label-up2 {
+  display: block;
+  margin: 0px 30px;
+  height: 100%;
+  position: relative;
+  top: 0%;
+  transition: 0.3s;
+}
+
+.button2:hover .label-up2 {
+  top: -100%;
+}
