@@ -10,28 +10,41 @@ import Tools from "../components/Tools";
 import Slider from "../components/Slider";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const Home = () => {
   return (
-    <div className="bg-[#111111] flex lg:flex-row justify-between w-full flex-col">
-      <div className="lg:w-[25%]">
-        <Bio />
-      </div>
-      <div className="flex flex-col lg:w-[73%] px-10">
-        <Navbar />
-        <div className="lg:space-y-40 space-y-32">
-          <Homecontent />
-          <Portfolio />
-          <About />
-          <Design />
-          <Education />
-          <Tools />
-          <Slider />
-          <Form />
-          <Footer />
+    <main>
+      <div className="bg-[#111111] flex lg:flex-row justify-between w-full flex-col">
+        <div className="lg:w-[25%]">
+          <Bio />
+        </div>
+        <div className="flex flex-col lg:w-[73%] px-10">
+          <Navbar />
+          <div className="lg:space-y-40 space-y-32">
+            <Homecontent />
+            <Portfolio />
+            <About />
+            <Design />
+            <Education />
+            <Tools />
+            <Slider />
+            <Form />
+            <Footer />
+          </div>
         </div>
       </div>
-    </div>
+      <FloatingWhatsApp
+        className="whatsapp"
+        phoneNumber="+923284108216"
+        accountName="Ahad Khalil"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+        statusMessage="Online"
+      />
+    </main>
   );
 };
 
