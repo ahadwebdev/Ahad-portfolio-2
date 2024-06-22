@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
       {/* Responsive Nav */}
       <nav class="flex justify-center items-center lg:hidden">
-        <ul className="text-white text-2xl flex w-[350px] rounded-3xl justify-between items-center  px-5 backdrop-blur-sm bg-black/10 h-12 fixed top-[450px] ">
+        <ul className="text-white text-2xl flex w-[350px] rounded-3xl justify-between items-center  px-5 backdrop-blur-sm bg-black/10 h-12 fixed bottom-12 ">
           <a
             href="#home"
             className="active:bg-white active:text-black active:rounded-full h-8 w-8 flex justify-center items-center"
