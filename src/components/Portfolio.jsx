@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="relative">
           <img
             src={sheildpro}
-            className="h-80 transition-all hover:scale-95 duration-200 bg-cover rounded-[40px]"
+            className="md:h-80 h-64 w-[500px] object-cover transition-all hover:scale-95 duration-200  rounded-[40px]"
             alt=""
           />
           <div>
@@ -34,7 +34,7 @@ const Portfolio = () => {
           <a href="https://tailwind1.softsons.com/" target="_blank">
             <img
               src={softson}
-              className=" h-80 bg-cover rounded-[40px] transition-all hover:scale-95 duration-200 "
+              className=" md:h-80 h-64 w-[500px] object-cover rounded-[40px] transition-all hover:scale-95 duration-200 "
               alt=""
             />
           </a>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           <a href="">
             <img
               src={cocacola}
-              className=" h-80 bg-cover rounded-[40px] transition-all hover:scale-95 duration-200 "
+              className=" md:h-80 h-64 w-[500px] object-cover rounded-[40px] transition-all hover:scale-95 duration-200 "
               alt=""
             />
           </a>
@@ -64,7 +64,7 @@ const Portfolio = () => {
           <a href="https://abdulahad.vercel.app/" target="_blank">
             <img
               src={portfolio}
-              className=" h-80 bg-cover rounded-[40px] transition-all hover:scale-95 duration-200 "
+              className=" md:h-80 h-64 w-[500px] object-cover rounded-[40px] transition-all hover:scale-95 duration-200 "
               alt=""
             />
           </a>

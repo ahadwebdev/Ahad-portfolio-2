@@ -2,10 +2,10 @@ import React from "react";
 import { FaDiamond } from "react-icons/fa6";
 const About = () => {
   const handleDownload = () => {
-    const resumeUrl = "/CV.jpeg";
+    const resumeUrl = "/resume.pdf";
     const downloadLink = document.createElement("a");
     downloadLink.href = resumeUrl;
-    downloadLink.download = "/CV.jpeg";
+    downloadLink.download = "/resume.pdf";
     downloadLink.click();
   };
   return (

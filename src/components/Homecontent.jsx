@@ -4,10 +4,10 @@ import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Homecontent = () => {
   const handleDownload = () => {
-    const resumeUrl = "/CV.jpeg";
+    const resumeUrl = "/resume.pdf";
     const downloadLink = document.createElement("a");
     downloadLink.href = resumeUrl;
-    downloadLink.download = "/CV.jpeg";
+    downloadLink.download = "/resume.pdf";
     downloadLink.click();
   };
   return (
@@ -19,7 +19,10 @@ const Homecontent = () => {
         I'm Ahad Khalil Frontend Web Developer.
       </h1>
       <div className="flex sm:flex-row flex-col gap-y-5 gap-x-5">
-        <a href="#portfolio" class="mywork px-5 border border-[#303033] font-syne font-semibold mt-3">
+        <a
+          href="#portfolio"
+          class="mywork px-5 border border-[#303033] font-syne font-semibold mt-3"
+        >
           <a class="label-up1  font-syne font-semibold text-gray-200">
             My Works
           </a>
