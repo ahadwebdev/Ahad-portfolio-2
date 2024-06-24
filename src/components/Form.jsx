@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 import { FaDiamond } from "react-icons/fa6";
+import emailjs from "@emailjs/browser";
 
 const Form = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(`service_4x7m3gq`, `template_a9d398w`, form.current, {
+        publicKey: `34-WVnqYhycTMjLRg`,
+      })
+      .then(
+        () => {
+          console.log("Email Send!!!");
+        },
+        (error) => {
+          console.log(`Failed....`, error.text);
+        }
+      );
+  };
   return (
     <div>
       <div className="flex flex-col gap-y-4">
@@ -12,7 +31,7 @@ const Form = () => {
           Let's make something awesome together!
         </h1>
       </div>
-      <form action="">
+      <form action="" ref={form} onSubmit={sendEmail}>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 pt-10">
           <div class="relative">
             <input
@@ -23,7 +42,7 @@ const Form = () => {
             />
             <label
               for="username"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
             >
               Your Name*
             </label>
@@ -86,14 +105,14 @@ const Form = () => {
             A Few Words
           </label>
         </div>
-        <div class="button2 bg-gradient-to-r from-violet-300 to-fuchsia-300 w-[200px] font-syne font-bold mt-3">
+        <button class="button2 bg-gradient-to-r from-violet-300 to-fuchsia-300 w-[200px] font-syne font-bold mt-3">
           <span class="label-up2 bg-gradient-to-r from-violet-300 to-fuchsia-300 font-syne font-bold">
             Send Message
           </span>
           <span class="label-up2 bg-gradient-to-r from-violet-300 to-fuchsia-300 font-syne font-bold">
             Send Message
           </span>
-        </div>
+        </button>
       </form>
     </div>
   );

@@ -117,3 +117,15 @@ a {
 .button2:hover .label-up2 {
   top: -100%;
 }
+
+.floating-whatsapp-button {
+  position: fixed !important;
+  bottom: 100px !important;
+  right: 13px !important;
+}
+
+@media (min-width: 768px) {
+  .floating-whatsapp-button {
+    bottom: 20px !important;
+  }
+}

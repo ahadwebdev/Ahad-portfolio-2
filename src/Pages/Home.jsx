@@ -11,6 +11,7 @@ import Slider from "../components/Slider";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import picture from "../images/Ahad.jpeg";
 
 const Home = () => {
   return (
@@ -35,7 +36,9 @@ const Home = () => {
         </div>
       </div>
       <FloatingWhatsApp
-        className="whatsapp"
+        className="whatsapp 
+        !fixed !top-0 floating-whatsapp-button
+        "
         phoneNumber="+923284108216"
         accountName="Ahad Khalil"
         allowEsc
@@ -43,6 +46,7 @@ const Home = () => {
         notification
         notificationSound
         statusMessage="Online"
+        avatar={picture}
       />
     </main>
   );
