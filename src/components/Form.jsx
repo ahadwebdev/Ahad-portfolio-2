@@ -56,7 +56,7 @@ const Form = () => {
             />
             <label
               for="email"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
             >
               Your Email*
             </label>
@@ -70,7 +70,7 @@ const Form = () => {
             />
             <label
               for="Companyname"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
             >
               Company Name*
             </label>
@@ -84,7 +84,7 @@ const Form = () => {
             />
             <label
               for="Phone"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
             >
               Phone Number*
             </label>
@@ -100,7 +100,7 @@ const Form = () => {
           ></textarea>
           <label
             for="textarea"
-            class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+            class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
           >
             A Few Words
           </label>
