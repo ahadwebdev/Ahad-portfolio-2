@@ -46,7 +46,7 @@ const Portfolio = () => {
           </p>
         </div>
         <div className="relative">
-          <a href="">
+          <a href="https://cocacola-kappa.vercel.app/" target="_blank">
             <img
               src={cocacola}
               className=" md:h-80 h-64 w-[500px] object-cover rounded-[40px] transition-all hover:scale-95 duration-200 "

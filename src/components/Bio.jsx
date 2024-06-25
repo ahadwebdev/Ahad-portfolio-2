@@ -40,14 +40,14 @@ const Bio = () => {
         <div className="w-full flex flex-col items-center">
           <ul className="flex justify-center mt-3 lg:gap-x-3 md:gap-x-20 gap-x-8 w-full icons-gap bg cursor-pointer">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=100069254975472"
               target="_blank"
               className="border border-[#636368] h-10 w-10 flex justify-center items-center rounded-full hover:bg-gradient-to-r from-violet-400 to-fuchsia-400"
             >
               <img src={fb} alt="" />
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/itx.ahad.official/"
               target="_blank"
               className="border border-[#636368] h-10 w-10 flex justify-center items-center rounded-full hover:bg-gradient-to-r from-violet-400 to-fuchsia-400"
             >
@@ -61,7 +61,7 @@ const Bio = () => {
               <img src={github} alt="" />
             </a>
             <a
-              href="https://www.linkedin.com/feed/"
+              href="https://www.linkedin.com/in/muhammad-ahad-khalil/"
               target="_blank"
               className="border border-[#636368] h-10 w-10 flex justify-center items-center rounded-full hover:bg-gradient-to-r from-violet-400 to-fuchsia-400"
             >

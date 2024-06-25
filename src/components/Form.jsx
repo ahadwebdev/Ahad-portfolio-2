@@ -33,76 +33,81 @@ const Form = () => {
       </div>
       <form action="" ref={form} onSubmit={sendEmail}>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 pt-10">
-          <div class="relative">
+          <div class="relative z-0">
             <input
               id="username"
               name="username"
               type="text"
-              class="border-b border-gray-300 py-2 focus:border-b-2 focus:border-gray-300 transition-colors focus:outline-none peer bg-inherit text-white font-syne font-semibold w-full"
+              class="block py-2.5 px-0 w-full text-xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-400 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-200 peer"
+              placeholder=" "
             />
             <label
               for="username"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute text-xl font-syne font-bold text-gray-300 dark:text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-gray-200 peer-focus:dark:text-gray-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
             >
               Your Name*
             </label>
           </div>
-          <div class="relative">
+          <div class="relative z-0">
             <input
               id="email"
               name="email"
               type="email"
-              class="border-b border-gray-300 py-2 focus:border-b-2 focus:border-gray-300 transition-colors focus:outline-none peer bg-inherit text-white font-syne font-semibold w-full"
+              class="block py-2.5 px-0 w-full text-xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-400 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-200 peer"
+              placeholder=" "
             />
             <label
               for="email"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute text-xl font-syne font-bold text-gray-300 dark:text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-gray-200 peer-focus:dark:text-gray-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
             >
               Your Email*
             </label>
           </div>
-          <div class="relative">
+          <div class="relative z-0">
             <input
               id="Companyname"
               name="Companyname"
               type="text"
-              class="border-b border-gray-300 py-2 focus:border-b-2 focus:border-gray-300 transition-colors focus:outline-none peer bg-inherit text-white font-syne font-semibold w-full"
+              class="block py-2.5 px-0 w-full text-xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-400 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-200 peer"
+              placeholder=" "
             />
             <label
               for="Companyname"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute text-xl font-syne font-bold text-gray-300 dark:text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-gray-200 peer-focus:dark:text-gray-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
             >
               Company Name*
             </label>
           </div>
-          <div class="relative">
+          <div class="relative z-0">
             <input
               id="Phone"
               name="Phone"
               type="tel"
-              class="border-b border-gray-300 py-2 focus:border-b-2 focus:border-gray-300 transition-colors focus:outline-none peer bg-inherit text-white font-syne font-semibold w-full"
+              class="block py-2.5 px-0 w-full text-xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-400 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-200 peer"
+              placeholder=" "
             />
             <label
               for="Phone"
-              class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer-focus:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+              class="absolute text-xl font-syne font-bold text-gray-300 dark:text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-gray-200 peer-focus:dark:text-gray-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
             >
-              Phone Number*
+              Phone Name*
             </label>
           </div>
         </div>
-        <div class="relative mt-10">
+        <div class="relative mt-10 z-0">
           <textarea
-            name="textarea"
             id="textarea"
+            name="textarea"
             cols="10"
             rows="6"
-            className="border-b border-gray-300 focus:border-b-2 focus:border-gray-300 transition-colors focus:outline-none peer bg-inherit text-white font-syne font-semibold w-full"
+            class="block py-2.5 px-0 w-full text-xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-400 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-200 peer"
+            placeholder=" "
           ></textarea>
           <label
             for="textarea"
-            class="absolute left-0 top-1 cursor-text text-gray-300 font-syne font-bold text-xl peer:hidden peer-focus:-top-4 transition-all peer-focus:text-gray-300"
+            class="absolute text-xl font-syne font-bold text-gray-300 dark:text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-gray-200 peer-focus:dark:text-gray-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
           >
-            A Few Words
+            A Few Lines
           </label>
         </div>
         <button class="button2 bg-gradient-to-r from-violet-300 to-fuchsia-300 w-[200px] font-syne font-bold mt-3">
