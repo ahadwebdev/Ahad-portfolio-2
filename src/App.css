@@ -124,8 +124,8 @@ a {
   right: 13px !important;
 }
 .styles-module_floatingWhatsapp__yWF5K {
-  width: 0%;
-  height: 0%;
+  width: 0% !important;
+  height: 0% !important;
 }
 
 @media (min-width: 768px) {
