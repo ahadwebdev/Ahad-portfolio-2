@@ -123,6 +123,10 @@ a {
   bottom: 100px !important;
   right: 13px !important;
 }
+.styles-module_floatingWhatsapp__yWF5K {
+  width: 0%;
+  height: 0%;
+}
 
 @media (min-width: 768px) {
   .floating-whatsapp-button {

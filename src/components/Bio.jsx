@@ -54,7 +54,7 @@ const Bio = () => {
               <img src={insta} alt="" />
             </a>
             <a
-              href="https://github.com/dashboard"
+              href="https://github.com/ahadwebdev"
               target="_blank"
               className="border border-[#636368] h-10 w-10 flex justify-center items-center rounded-full hover:bg-gradient-to-r from-violet-400 to-fuchsia-400"
             >
