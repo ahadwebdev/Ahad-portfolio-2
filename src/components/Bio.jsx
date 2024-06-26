@@ -24,7 +24,7 @@ const Bio = () => {
             <p className="text-[#636368] text-sm font-syne font-medium leading-[15px]">
               Specialization:
             </p>
-            <p className="text-[#e9e9f1] text-lg font-syne font-semibold">
+            <p className="text-[#e9e9f1] text-[16px] font-syne font-semibold">
               Front-end Developer
             </p>
           </div>
@@ -32,7 +32,7 @@ const Bio = () => {
             <p className="text-[#636368] text-sm font-syne leading-[15px]">
               Based in:
             </p>
-            <p className="text-[#e9e9f1] text-lg font-syne font-semibold">
+            <p className="text-[#e9e9f1] text-[16px] font-syne font-semibold">
               Pakistan, Lahore
             </p>
           </div>
@@ -70,7 +70,7 @@ const Bio = () => {
           </ul>
           <a
             href="#contactform"
-            class="button bg-gradient-to-r from-violet-300 to-fuchsia-300 lg:w-[240px] w-full font-syne font-semibold mt-3"
+            class="button bg-gradient-to-r from-violet-300 to-fuchsia-300 lg:w-[220px] w-full font-syne font-semibold mt-3"
           >
             <a class="label-up bg-gradient-to-r from-violet-300 to-fuchsia-300 font-syne font-semibold">
               Let's Work Together!

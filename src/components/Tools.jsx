@@ -6,12 +6,15 @@ import SCSS from "../svg/scss-svgrepo-com.svg";
 import Bootstrap from "../svg/bootstrap.svg";
 import Tailwindcss from "../svg/tailwindcss.svg";
 import ReactJs from "../svg/React.svg";
+import NextJs from "../svg/nextjs.svg";
 
 const Tools = () => {
   return (
     <div className="flex flex-col gap-y-10">
-      <h1 className="text-4xl text-white font-syne font-bold">My Expertise</h1>
-      <div className="grid lg:grid-cols-5 gap-x-5 sm:grid-cols-3 md:grid-cols-4 grid-cols-2  gap-y-5 Icons">
+      <h1 className="sm:text-4xl text-3xl text-white font-syne font-bold">
+        My Expertise
+      </h1>
+      <div className="grid lg:grid-cols-4 gap-x-5 sm:grid-cols-3 md:grid-cols-4 grid-cols-2  gap-y-5 Icons">
         <div className="border border-[#303033] flex flex-col justify-center items-center gap-y-2 rounded-3xl py-4 ">
           <img src={Html} alt="" />
           <p className="text-white text-lg font-syne font-bold">HTML</p>
@@ -34,11 +37,15 @@ const Tools = () => {
         </div>
         <div className="border border-[#303033] flex flex-col justify-center items-center gap-y-2 rounded-3xl  py-4">
           <img src={Tailwindcss} alt="" />
-          <p className="text-white text-lg font-syne font-bold">TailwindCSS</p>
+          <p className="text-white text-lg font-syne font-bold">Tailwind</p>
         </div>
         <div className="border border-[#303033] flex flex-col justify-center items-center gap-y-2 rounded-3xl  py-4">
           <img src={ReactJs} alt="" />
           <p className="text-white text-lg font-syne font-bold">React</p>
+        </div>
+        <div className="border border-[#303033] flex flex-col justify-center items-center gap-y-2 rounded-3xl  py-4">
+          <img src={NextJs} alt="" />
+          <p className="text-white text-lg font-syne font-bold">Next</p>
         </div>
       </div>
     </div>

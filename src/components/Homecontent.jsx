@@ -11,11 +11,11 @@ const Homecontent = () => {
     downloadLink.click();
   };
   return (
-    <div className="flex flex-col justify-end gap-y-5 h-[500px]">
+    <div className="flex flex-col justify-end gap-y-5 mt-5 lg:mt-0 lg:h-[470px] xl:h-[500px]">
       <p className=" text-gray-200 text-sm font-syne font-semibold border border-[#303033] rounded-3xl px-5 py-2 text-nowrap w-min flex items-center gap-x-2 justify-center">
         <FaDiamond className="text-[#dcbccf]" /> Let's connect!
       </p>
-      <h1 className="lg:text-7xl text-4xl sm:text-6xl text-[#dcbccf] font-syne font-medium lg:w-[70%] w-[80%]">
+      <h1 className="lg:text-6xl xl:text-7xl text-3xl sm:text-6xl text-[#dcbccf] font-syne font-medium lg:w-[80%] w-full">
         I'm Ahad Khalil Frontend Web Developer.
       </h1>
       <div className="flex sm:flex-row flex-col gap-y-5 gap-x-5">

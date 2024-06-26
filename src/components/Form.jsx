@@ -27,7 +27,7 @@ const Form = () => {
         <p className=" text-gray-200 text-sm font-syne font-semibold border border-[#303033] rounded-3xl px-5 py-2 text-nowrap w-min flex justify-center items-center gap-x-2">
           <FaDiamond className="text-[#dcbccf]" /> Contact
         </p>
-        <h1 className="sm:text-5xl text-xl  text-[#dcbccf] font-syne font-bold w-full">
+        <h1 className="xl:text-5xl text-xl sm:text-5xl   text-[#dcbccf] font-syne font-bold w-full">
           Let's make something awesome together!
         </h1>
       </div>

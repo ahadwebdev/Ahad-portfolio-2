@@ -13,13 +13,13 @@ const About = () => {
       <p className=" text-gray-200 text-sm font-syne font-semibold border border-[#303033] rounded-3xl px-5 py-2 text-nowrap w-min flex justify-center items-center gap-x-2">
         <FaDiamond className="text-[#dcbccf]" /> About me
       </p>
-      <h1 className="sm:text-6xl text-3xl text-center sm:text-start text-[#dcbccf] font-syne font-medium lg:w-[90%] w-full">
+      <h1 className="text-2xl sm:text-6xl  text-[#dcbccf] font-syne font-medium lg:w-[90%] w-full">
         Turning complex problems into simple code
       </h1>
       <div className="grid md:grid-cols-3 grid-cols-1 md:gap-x-7 gap-y-5">
         <div className="flex flex-col justify-center items-center border border-[#303033] px-8  py-5 rounded-3xl">
           <h1 className="text-7xl font-syne font-bold text-[#dcbccf]">40+</h1>
-          <p className="text-xl font-syne font-semibold  text-gray-200">
+          <p className="text-xl font-syne font-semibold text-center text-gray-200">
             Happy Clients
           </p>
         </div>
@@ -31,7 +31,7 @@ const About = () => {
         </div>
         <div className="flex flex-col justify-center items-center border border-[#303033] px-8 py-5 rounded-3xl">
           <h1 className="text-7xl font-syne font-bold text-[#dcbccf]">50+</h1>
-          <p className="text-xl font-syne font-semibold  text-gray-200">
+          <p className="text-xl font-syne text-center font-semibold  text-gray-200">
             Projects done
           </p>
         </div>

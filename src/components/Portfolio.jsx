@@ -11,7 +11,7 @@ const Portfolio = () => {
       <p className=" text-gray-200 text-sm font-syne font-semibold border border-[#303033] rounded-3xl px-5 py-2 text-nowrap w-min flex justify-center items-center gap-x-2">
         <FaDiamond className="text-[#dcbccf]" /> Portfolio
       </p>
-      <h1 className="sm:text-6xl text-2xl text-[#dcbccf] font-syne font-medium lg:w-[70%] w-full">
+      <h1 className="text-2xl sm:text-6xl text-[#dcbccf] font-syne font-medium lg:w-[80%] w-full">
         Check out my featured projects
       </h1>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-5 place-items-center  ">

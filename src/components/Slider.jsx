@@ -13,7 +13,7 @@ const Slider = () => {
           <FaDiamond className="text-[#dcbccf]" />
           Testimonials
         </p>
-        <h1 className="sm:text-6xl text-4xl text-[#dcbccf] leading-20 font-syne font-medium w-full">
+        <h1 className=" text-2xl sm:text-6xl  text-[#dcbccf] leading-20 font-syne font-medium w-full">
           Clients say about me
         </h1>
       </div>
@@ -43,9 +43,6 @@ const Slider = () => {
             talented, and passionate, Ahad delivers outstanding results. We
             highly recommend their services!"
           </p>
-          <h1 className="text-white text-lg pt-3 flex items-center gap-x-2 font-syne font-semibold before:content-[''] before:absolute relative before:bg-white before:w-0 before:h-[1px] before:bottom-0 lg:hover:before:w-[18%] md:hover:before:w-[21%] before:duration-500 md:hover:transition-all cursor-pointer">
-            Project Page <FaArrowRight className="text-white text-lg" />
-          </h1>
         </div>
         <div className="border border-[#303033] px-6 py-10 rounded-3xl">
           <div className="flex sm:flex-row flex-col items-center gap-x-5">
@@ -72,12 +69,6 @@ const Slider = () => {
             exceeded our expectations. We're incredibly impressed and grateful
             for their expertise!"
           </p>
-          <h1
-            id="contactform"
-            className="text-white text-lg pt-3 flex items-center gap-x-2 font-syne font-semibold before:content-[''] before:absolute relative before:bg-white before:w-0 before:h-[1px] before:bottom-0 lg:hover:before:w-[18%] md:hover:before:w-[21%] before:duration-500 md:hover:transition-all cursor-pointer"
-          >
-            Project Page <FaArrowRight className="text-white text-lg" />
-          </h1>
         </div>
       </div>
     </div>

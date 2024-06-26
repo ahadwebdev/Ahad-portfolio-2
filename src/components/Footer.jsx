@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-y-10">
-      <h1 className="sm:text-5xl text-3xl text-[#dcbccf] text-center sm:text-start leading-20 font-syne font-medium w-full">
+    <div className="flex flex-col gap-y-10 pb-20">
+      <h1 className="lg:text-6xl text-2xl sm:text-5xl  text-[#dcbccf] leading-20 font-syne font-medium w-full">
         Want to know more about me, tell me about your project.
       </h1>
       <hr className="bg-gray-600 h-[1px] w-full" />
