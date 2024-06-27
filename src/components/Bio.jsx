@@ -70,7 +70,7 @@ const Bio = () => {
           </ul>
           <a
             href="#contactform"
-            class="button bg-gradient-to-r from-violet-300 to-fuchsia-300 lg:w-[220px] w-full font-syne font-semibold mt-3"
+            class="button bg-gradient-to-r from-violet-300 to-fuchsia-300 lg:w-[220px] xl:w-[240px] w-full font-syne font-semibold mt-3"
           >
             <a class="label-up bg-gradient-to-r from-violet-300 to-fuchsia-300 font-syne font-semibold">
               Let's Work Together!
